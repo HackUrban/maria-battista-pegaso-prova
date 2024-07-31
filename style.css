@@ -1,0 +1,66 @@
+:root {
+    --pegaso: #881b3b;
+    --pegaso-bg: #ff93b5;
+    --mercatorum: #a00701; 
+    --mercat-bg: #ffa29e;
+    --sraffaele: #3498db; 
+    --background: #dbccd1; 
+    --font: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.body{
+    font-family: var(--font);
+}
+
+.navbar-brand{
+    color: var(--mercatorum);
+    font-weight: 700;
+    letter-spacing: -2px;
+}
+
+.background{
+    width: 100%;
+    background: url(./media/header_laurea.jpg) no-repeat center fixed;
+    -webkit-background-size: cover; 
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.header_title{
+    font-weight: 700;
+    color: white;
+    letter-spacing: -2px;
+
+}
+
+.title-form{
+    font-weight: 700;
+    letter-spacing: -2px;
+}
+
+.btn{
+    
+    border: solid var(--mercatorum);
+    background-color: #a00701;
+    color: var(--background);
+    font-weight: 500;
+}
+
+.btn:hover{
+    color:black;
+    background-color: white;
+}
+
+.grad{
+    border-radius: 5%;
+}
+
+.sectionMercatorum{
+    background-color: var(--mercat-bg);
+}
+
+.Unimercatorum-title{
+    font-weight: 700;
+    letter-spacing: -2px;
+}
